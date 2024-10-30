@@ -60,6 +60,14 @@
     "valid_duration": "Valid duration",
     "valid_duration-tips": "minutes"
   },
+  "123PanLinkDir": {
+    "root_folder_id": "Root folder id",
+    "root_folder_path": "Root folder path",
+    "domain": "domain",
+    "domain-tips": "123pan settinged domain",
+    "enable_https": "Enable https",
+    "uuid": "123pan uuid"
+  },
   "123PanShare": {
     "accesstoken": "Accesstoken",
     "root_folder_id": "Root folder id",
@@ -975,6 +983,7 @@
     "115 Share": {},
     "123Pan": {},
     "123PanLink": {},
+    "123PanLinkDir": {},
     "123PanShare": {},
     "139Yun": {},
     "189Cloud": {
@@ -1052,6 +1061,7 @@
     "115 Share": "115 Share",
     "123Pan": "123Pan",
     "123PanLink": "123PanLink",
+    "123PanLinkDir": "123PanLinkDir",
     "123PanShare": "123PanShare",
     "139Yun": "139Yun",
     "189Cloud": "189Cloud",
