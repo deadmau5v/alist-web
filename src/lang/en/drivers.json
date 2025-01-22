@@ -77,10 +77,13 @@
   "139Yun": {
     "authorization": "Authorization",
     "cloud_id": "Cloud id",
+    "custom_upload_part_size": "Custom upload part size",
+    "custom_upload_part_size-tips": "0 for auto",
     "root_folder_id": "Root folder id",
     "type": "Type",
     "types": {
       "family": "Family",
+      "group": "Group",
       "personal": "Personal",
       "personal_new": "Personal new"
     }
@@ -253,10 +256,8 @@
   },
   "BaiduPhoto": {
     "album_id": "Album id",
-    "client_id": "Client id",
-    "client_secret": "Client secret",
+    "cookie": "Cookie",
     "delete_origin": "Delete origin",
-    "refresh_token": "Refresh token",
     "show_type": "Show type",
     "show_types": {
       "root": "Root",
@@ -326,6 +327,7 @@
     "add_filename_to_disposition-tips": "Add filename to Content-Disposition header.",
     "bucket": "Bucket",
     "custom_host": "Custom host",
+    "enable_custom_host_presign": "Enable custom host presign",
     "endpoint": "Endpoint",
     "force_path_style": "Force path style",
     "list_object_version": "List object version",
@@ -382,6 +384,24 @@
     "password": "Password",
     "root_folder_id": "Root folder id",
     "username": "Username"
+  },
+  "GitHub API": {
+    "author_email": "Author email",
+    "author_name": "Author name",
+    "committer_email": "Committer email",
+    "committer_name": "Committer name",
+    "copy_commit_message": "Copy commit message",
+    "delete_commit_message": "Delete commit message",
+    "mkdir_commit_message": "Mkdir commit message",
+    "move_commit_message": "Move commit message",
+    "owner": "Owner",
+    "put_commit_message": "Put commit message",
+    "ref": "Ref",
+    "ref-tips": "A branch, a tag or a commit SHA, main branch by default.",
+    "rename_commit_message": "Rename commit message",
+    "repo": "Repo",
+    "root_folder_path": "Root folder path",
+    "token": "Token"
   },
   "GoogleDrive": {
     "chunk_size": "Chunk size",
@@ -483,7 +503,9 @@
     "thumb_concurrency": "Thumb concurrency",
     "thumb_concurrency-tips": "Number of concurrent thumbnail generation goroutines. This controls how many thumbnails can be generated in parallel.",
     "thumbnail": "Thumbnail",
-    "thumbnail-tips": "enable thumbnail"
+    "thumbnail-tips": "enable thumbnail",
+    "video_thumb_pos": "Video thumb pos",
+    "video_thumb_pos-tips": "The position of the video thumbnail. If the value is a number (integer ot floating point), it represents the time in seconds. If the value ends with '%', it represents the percentage of the video duration."
   },
   "MediaTrack": {
     "access_token": "Access token",
@@ -585,11 +607,6 @@
       "web": "Web"
     },
     "refresh_token": "Refresh token",
-    "refresh_token_method": "Refresh token method",
-    "refresh_token_methods": {
-      "http": "Http",
-      "oauth2": "Oauth2"
-    },
     "root_folder_id": "Root folder id",
     "username": "Username"
   },
@@ -644,6 +661,7 @@
     "add_filename_to_disposition-tips": "Add filename to Content-Disposition header.",
     "bucket": "Bucket",
     "custom_host": "Custom host",
+    "enable_custom_host_presign": "Enable custom host presign",
     "endpoint": "Endpoint",
     "force_path_style": "Force path style",
     "list_object_version": "List object version",
@@ -904,7 +922,8 @@
     "head_size": "Head size",
     "head_size-tips": "Use head method to get file size, but it may be failed.",
     "url_structure": "Url structure",
-    "url_structure-tips": "structure:FolderName:\n  [FileName:][FileSize:][Modified:]Url"
+    "url_structure-tips": "structure:FolderName:\n  [FileName:][FileSize:][Modified:]Url",
+    "writable": "Writable"
   },
   "VTencent": {
     "cookie": "Cookie",
@@ -1025,6 +1044,7 @@
     "FTP": {},
     "FebBox": {},
     "FeijiPan": {},
+    "GitHub API": {},
     "GoogleDrive": {},
     "GooglePhoto": {},
     "HalalCloud": {},
@@ -1100,6 +1120,7 @@
     "FTP": "FTP",
     "FebBox": "FebBox",
     "FeijiPan": "FeijiPan",
+    "GitHub API": "GitHub API",
     "GoogleDrive": "GoogleDrive",
     "GooglePhoto": "GooglePhoto",
     "HalalCloud": "HalalCloud",
